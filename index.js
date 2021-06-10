@@ -19,3 +19,21 @@ figlet(bye, function(err, data) {
     console.log(data);
 });
 
+
+// Language detector
+if (langs.has("3", langCode)) {
+    const language = langs.where("3", langCode).name;
+    
+    figlet(language, function(err, data) {
+        if (err) {
+            console.log("Something went wrong...");
+            console.dir(err);
+        
+            return;
+        }         
+    
+        console.log(data.cyan);
+     });
+} else {
+    console.log("Sorry, we don't know that language");
+}

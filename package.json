@@ -1,13 +1,13 @@
 {
-  "name": "my-node-app",
-  "version": "1.0.0",
+  "scripts": {
+    "Run Language Detector": "node index.js 'Bonjour je suis colt'"
+  },
   "dependencies": {
-    "colors": "^1.4.0",
     "figlet": "^1.5.0",
+    "colors": "^1.4.0",
     "franc": "^5.0.0",
     "langs": "^2.0.0"
   },
-  "scripts": {
-      "Run Pao's app'": "node index.js 'Bonjour je suis colt'"
-  }
+  "name": "LanguageDetector",
+  "version": "1.0.0"
 }
